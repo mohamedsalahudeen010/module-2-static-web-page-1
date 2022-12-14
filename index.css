@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.box{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(81, 110, 101);
+}
+.title1{
+    font-style: italic;
+    font-family: cursive;
+}
+.container{
+    border: 1px solid black; 
+    margin: 50px auto; 
+    background-color: slategrey;
+}
+.head{
+    border: 1px solid black;
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+    background-color: rgba(144, 210, 144, 0.918);
+    
+}
+
+.mainbox{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 1%;
+    background-color: rgba(144, 210, 144, 0.918);
+    
+}
+.side-left{
+    
+    text-align: center;
+}
+.photo{
+    border: 3px solid black;
+    width: 30%;
+    height: 45%;
+    margin:15% auto 0 auto;
+    
+}
+.photo>div{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    border-radius: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    
+
+}
+
+.label1{
+    display: inline-block;
+    margin: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.input{
+    display:inline-block;
+    width: 20%;
+    
+}
+#numberofseats{
+    background-color: silver;
+}
+.input>input{
+    background-color: silver;
+    padding-left: 5px;
+}
+.btn-submit{
+    display: inline-block;
+    
+}
+.btn-cancel{
+    display: inline-block;
+}
+.btn-submit>button{
+    background-color: silver;
+    margin: 1rem;
+    padding: 3% 12%;
+    border-radius: 10%;
+}
+.btn-cancel>button{
+    background-color: silver;
+    display: inline-block;
+    margin: 1rem;
+    padding: 3% 12%;
+    border-radius: 10%;
+}
+
+.input-name{
+    margin-left: 19%;
+    width: 20%;
+}
+.input-email{
+    margin-left:20%;
+}
+.input-ph{
+    margin-left:13%;
+}
+.input-seats{
+    margin-left:2%;
+}
+.input-attendee{
+    margin-left:-3%;
+}
+
+
+
+
+
